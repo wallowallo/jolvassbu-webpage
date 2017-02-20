@@ -2,15 +2,14 @@
 	<button class="toggleMenu" md-button (click)="sidenav.toggle()">
 	   <i class="material-icons">view_headline</i>
   </button>
-  <img class="logo" src="logo-jølvassbu.gif">
+  <a class="link" [routerLink]="['/']"><img class="logo" src="logo-jølvassbu.gif"></a>
 	<h1 class="mainHeader"></h1>
 </md-toolbar>
 <md-sidenav-container class="sidenav-container">
   <md-sidenav class="sidenav" #sidenav mode="side" opened="true">
-		<a class="link" [routerLink]="['/']">Hjem</a>
 		<a class="link" [routerLink]="['/cabins']">Hytter</a>
-		<a class="link" [routerLink]="['/facilities']">Servicebygg</a>
 		<a class="link" [routerLink]="['/caravan']">Bobil & Telt</a>
+		<a class="link" [routerLink]="['/facilities']">Servicebygg</a>
 		<a class="link" [routerLink]="['/summer-activities']">Sommer aktiviteter</a>
     <a class="link" [routerLink]="['/winter-activities']">Vinter Aktiviteter</a>
 	 </md-sidenav>

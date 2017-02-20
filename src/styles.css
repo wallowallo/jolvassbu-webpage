@@ -78,7 +78,7 @@ div.md-sidenav-content {
   margin: 0px auto 30px auto;
 }
 
-.cabinHeader {
+.cabinHeader, .caravanHeader {
   text-align: center;
 }
 
@@ -95,10 +95,23 @@ div.md-sidenav-content {
   width: 630px;
 }
 
-.selet, .holsbua {
+.selet, .holsbua, .caravans, .facilities {
   margin: 10px auto;
 }
 
 .footerText {
   margin: 5px auto;
+}
+
+.caravans {
+  width: 630px;
+}
+
+.facilities {
+  width: 310px;
+}
+
+.bench {
+  width: 290px;
+  margin: 10px auto;
 }
