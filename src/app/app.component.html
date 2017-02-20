@@ -1,7 +1,26 @@
-<div>
-  <img src="jøvassbu.jpg">
-  <img id="logo" src="logo-jølvassbu.gif">
-</div>
-<h1>
-  {{title}}
-</h1>
+<md-toolbar color="primary">
+	<button class="toggleMenu" md-button (click)="sidenav.toggle()">
+	   <i class="material-icons">view_headline</i>
+  </button>
+  <img class="logo" src="logo-jølvassbu.gif">
+	<h1 class="mainHeader"></h1>
+</md-toolbar>
+<md-sidenav-container class="sidenav-container">
+  <md-sidenav class="sidenav" #sidenav mode="side" opened="true">
+		<a class="link" [routerLink]="['/']">Home</a>
+		<a class="link" [routerLink]="['/cabins']">Cabins</a>
+		<a class="link" [routerLink]="['/facilities']">Facilities</a>
+		<a class="link" [routerLink]="['/caravan']">Caravan & Camping</a>
+		<a class="link" [routerLink]="['/summer-activities']">Summer Activities</a>
+    <a class="link" [routerLink]="['/winter-activities']">Winter Activities</a>
+	 </md-sidenav>
+  <router-outlet></router-outlet>
+</md-sidenav-container>
+
+<footer>
+  <md-toolbar color="primary">
+    <div class="footerText">
+    Contact us @
+    </div>
+  </md-toolbar>
+</footer>

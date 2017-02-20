@@ -14,6 +14,8 @@ import { FacilitiesComponent } from './facilities/facilities.component';
 import { SummerActivitiesComponent } from './summer-activities/summer-activities.component';
 import { WinterActivitiesComponent } from './winter-activities/winter-activities.component';
 
+import { routing } from './routes/routing';
+
 @NgModule({
   declarations: [
     AppComponent,
@@ -29,6 +31,7 @@ import { WinterActivitiesComponent } from './winter-activities/winter-activities
     BrowserModule,
     FormsModule,
     HttpModule,
+    routing,
     MaterialModule.forRoot()
   ],
   providers: [],

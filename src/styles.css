@@ -1,7 +1,59 @@
 /* You can add global styles to this file, and also import other style files */
 @import '~@angular/material/core/theming/prebuilt/deeppurple-amber.css';
 
-#logo {
-  position: absolute;
-  left:10px;
+* {
+	font-family: "Courier New", Courier, "Lucida Sans Typewriter", "Lucida Typewriter", monospace;
+	font-style: normal;
+	font-variant: normal;
+}
+
+body {
+  margin: 0;
+}
+
+div.md-sidenav-content {
+  background-color: LightCyan;
+}
+
+.jola .persbua .elvestova {
+  background-size: cover;
+}
+
+.introCard {
+  margin: 40px auto;
+  width: 660px;
+}
+
+.introImg {
+  background-size: cover;
+}
+
+.link:link, .link:visited {
+  color: white;
+  padding: 14px 25px;
+  text-align: center;
+  text-decoration: none;
+  display: block;
+}
+
+.link:hover, .link:active {
+  background-color: DodgerBlue;
+}
+
+.sidenav {
+	background-color: SkyBlue
+}
+
+.md-primary {
+  background-color: LightSkyBlue !important;
+}
+
+.logo {
+  width: 170px;
+  height: 60px;
+  margin-left:120px;
+}
+
+.cabins {
+  width: 200px;
 }
