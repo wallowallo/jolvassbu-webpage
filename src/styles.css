@@ -15,7 +15,7 @@ div.md-sidenav-content {
   background-color: LightCyan;
 }
 
-.jola .persbua .elvestova .livingRoom .tv .diningTable .kitchen {
+.jola, .persbua, .elvestova, .livingRoom, .tv, .diningTable, .kitchen {
   background-size: cover;
 }
 
@@ -80,4 +80,25 @@ div.md-sidenav-content {
 
 .cabinHeader {
   text-align: center;
+}
+
+.cabinPrice {
+  margin: 0 auto;
+  width: 500px;
+}
+
+.selet {
+  width: 310px;
+}
+
+.holsbua {
+  width: 630px;
+}
+
+.selet, .holsbua {
+  margin: 10px auto;
+}
+
+.footerText {
+  margin: 5px auto;
 }
