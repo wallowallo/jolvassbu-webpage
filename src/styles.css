@@ -83,7 +83,7 @@ div.md-sidenav-content {
 }
 
 .cabinPrice {
-  margin: 0 auto;
+  margin: 0 auto 30px auto;
   width: 500px;
 }
 
@@ -108,10 +108,18 @@ div.md-sidenav-content {
 }
 
 .facilities {
-  width: 310px;
+  width: 590px;
 }
 
 .bench {
   width: 290px;
   margin: 10px auto;
+}
+
+.pSpace {
+  margin-top: 40px;
+}
+
+.facility {
+  width: 530px;
 }
