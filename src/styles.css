@@ -123,3 +123,19 @@ div.md-sidenav-content {
 .facility {
   width: 530px;
 }
+
+.vandring {
+  display: inline-block;
+  width: 240px;
+}
+
+.fishing {
+  width: 220px;
+  height: 320px;
+  display: inline-block;
+}
+
+.fisher {
+  width: 550px;
+  margin: 0 auto;
+}
