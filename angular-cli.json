@@ -8,10 +8,7 @@
       "root": "src",
       "outDir": "dist",
       "assets": [
-        "assets",
-        "hytte.png",
-        "logo-jølvassbu.gif",
-        "jøvassbu.jpg"
+        "assets"
       ],
       "index": "index.html",
       "main": "main.ts",

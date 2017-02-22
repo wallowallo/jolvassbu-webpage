@@ -3,7 +3,24 @@
 	   <i class="material-icons">view_headline</i>
   </button>
   <a class="link" [routerLink]="['/']"><img class="logo" src="assets/images/logo-jølvassbu.gif"></a>
-	<h1 class="mainHeader"></h1>
+
+  <button md-button [mdMenuTriggerFor]="menu">Overnatting</button>
+  <md-menu #menu="mdMenu">
+    <a class="link" [routerLink]="['/cabins']">Hytter</a>
+    <a class="link" [routerLink]="['/caravan']">Bobil & Telt</a>
+    <a class="link" [routerLink]="['/facilities']">Servicebygg</a>
+  </md-menu>
+
+  <button md-button [mdMenuTriggerFor]="menu2">Aktiviteter</button>
+  <md-menu #menu2="mdMenu" class="activitiesMenu">
+    <a class="link" [routerLink]="['/summer-activities']">Sommer & Vår</a>
+    <a class="link" [routerLink]="['/winter-activities']">Vinter & Høst</a>
+  </md-menu>
+
+  <button md-button [mdMenuTriggerFor]="menu3">Info</button>
+  <md-menu #menu3="mdMenu" class="activitiesMenu">
+    <a class="link" [routerLink]="['/contact']">Kontakt Oss</a>
+  </md-menu>
 </md-toolbar>
 <md-sidenav-container class="sidenav-container">
   <md-sidenav class="sidenav" #sidenav mode="side" opened="true">

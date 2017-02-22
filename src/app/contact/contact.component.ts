@@ -14,13 +14,11 @@ export class ContactComponent {
   public constructor(private http: Http) {}
 
       send(form: NgForm) {
-        const from = form.value.from;
         const subject = form.value.subject;
         const text = form.value.message;
         const service_id = "default_service";
         const template_id = "template_Ass4sDXO";
         const params = {
-          from: from,
           subject: subject,
           message: text
         }
