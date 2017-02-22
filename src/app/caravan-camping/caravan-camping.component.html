@@ -1,50 +1,47 @@
 <h1 class="caravanHeader">BUBIL, CAMPINGVOGN, TELT & LAVVO</h1>
 
-  <div class="caravans">
-      <md-card class="cabin">
-        <img md-card-image src="images/caravan/caravan1.jpg" alt="Bobil" height="170">
-        <md-card-content>
-          <p>Bobil</p>
-        </md-card-content>
-      </md-card>
-
-      <md-card class="cabin">
-        <img md-card-image src="images/caravan/caravan2.jpg" alt="Telt" height="170">
-        <md-card-content>
-          <p>Telt</p>
-        </md-card-content>
-      </md-card>
-  </div>
-
-
-  <div class="imageCards">
-    <md-card class="insideCabins">
-      <img md-card-image src="images/caravan/caravan3.jpg" alt="Telt 2">
-      <md-card-content>
-        <p>Telt 2</p>
-      </md-card-content>
-    </md-card>
-
-    <md-card class="insideCabins">
-      <img md-card-image src="images/caravan/caravan4.jpg" alt="Buss Parkering">
-      <md-card-content>
-        <p>Buss Parkering</p>
-      </md-card-content>
-    </md-card>
-
-    <md-card class="insideCabins">
-      <img md-card-image src="images/caravan/caravan5.jpg" alt="Lavvo">
-      <md-card-content>
-        <p>Lavvo</p>
-      </md-card-content>
-    </md-card>
-
-    <md-card class="insideCabins">
-      <img md-card-image src="images/caravan/caravan6.jpg" alt="Bobil ved elven">
-      <md-card-content>
-        <p>Bobil ved elven</p>
-      </md-card-content>
-    </md-card>
+<md-card class="carouselCard">
+  <md-card-content>
+    <carousel [interval]="0" class="carousel">
+      <slide>
+        <img md-card-image src="images/caravan/caravan1.jpg" alt="Bobil">
+        <div class="carousel-caption">
+          <h3>Bobil</h3>
+        </div>
+      </slide>
+      <slide>
+        <img md-card-image src="images/caravan/caravan2.jpg" alt="Telt ved elven">
+        <div class="carousel-caption">
+          <h3>Telt ved Elven</h3>
+        </div>
+      </slide>
+      <slide>
+        <img md-card-image src="images/caravan/caravan3.jpg" alt="Telt">
+        <div class="carousel-caption">
+          <h3>Telt</h3>
+        </div>
+      </slide>
+      <slide>
+        <img md-card-image src="images/caravan/caravan4.jpg" alt="Buss Parkering">
+        <div class="carousel-caption">
+          <h3>Buss Parkering</h3>
+        </div>
+      </slide>
+      <slide>
+        <img md-card-image src="images/caravan/caravan5.jpg" alt="Lavvo">
+        <div class="carousel-caption">
+          <h3>Lavvo</h3>
+        </div>
+      </slide>
+      <slide>
+        <img md-card-image src="images/caravan/caravan6.jpg" alt="Bobil ved elven">
+        <div class="carousel-caption">
+          <h3>Bobil ved elven</h3>
+        </div>
+      </slide>
+    </carousel>
+  </md-card-content>
+</md-card>
 
     <md-card class="cabinPrice">
       <md-card-content>
@@ -65,4 +62,3 @@
           <p>Åttemanns Venorlavvo m/ ovn: nkr. 290,-/døgn,1-4 pers</p>
       </md-card-content>
     </md-card>
-  </div>

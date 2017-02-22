@@ -1,86 +1,77 @@
 <h1 class="cabinHeader">Høst</h1>
 
-<div class="imageCards">
-  <md-card class="cabinPrice">
-    <img md-card-image src="images/winter/winter1.jpg" alt="Nydelige høstfarger">
-    <md-card-content>
-      <p>Nydelige høstfarger</p>
-    </md-card-content>
-  </md-card>
-
-  <md-card class="insideCabins">
-    <img md-card-image src="images/winter/winter2.jpg" alt="Hytter">
-    <md-card-content>
-      <p>Hytter</p>
-    </md-card-content>
-  </md-card>
-
-
-  <md-card class="insideCabins">
-    <img md-card-image src="images/winter/winter3.jpg" alt="Solnedgang ved elven">
-    <md-card-content>
-      <p>Solnedgang ved elven</p>
-    </md-card-content>
-  </md-card>
-
-  <md-card class="insideCabins">
-    <img md-card-image src="images/winter/winter4.jpg" alt="Solnedgang">
-    <md-card-content>
-      <p>Solnedgang</p>
-    </md-card-content>
-  </md-card>
-
-  <md-card class="insideCabins">
-    <img md-card-image src="images/winter/winter5.jpg" alt="Solnedgang 2">
-    <md-card-content>
-      <p>Solnedgang 2</p>
-    </md-card-content>
-  </md-card>
-</div>
-
-<div class="imageCards">
-  <md-card class="insideCabins">
-    <img md-card-image src="images/winter/winter6.jpg" alt="flott fangst">
-    <md-card-content>
-      <p>Flott fangst</p>
-    </md-card-content>
-  </md-card>
-
-
-  <md-card class="insideCabins">
-    <img md-card-image src="images/winter/winter7.jpg" alt="Fangst">
-    <md-card-content>
-      <p>Fangst</p>
-    </md-card-content>
-  </md-card>
-
-  <md-card class="insideCabins">
-    <img md-card-image src="images/winter/winter8.jpg" alt="Stor fisk">
-    <md-card-content>
-      <p>Stor fisk</p>
-    </md-card-content>
-  </md-card>
-
-  <md-card class="insideCabins">
-    <img md-card-image src="images/winter/winter9.jpg" alt="fisk & utstyr">
-    <md-card-content>
-      <p>Fisk & utstyr</p>
-    </md-card-content>
-  </md-card>
-
-  <md-card class="insideCabins">
-    <img md-card-image src="images/winter/winter10.jpg" alt="ryper">
-    <md-card-content>
-      <p>Flotte ryper</p>
-    </md-card-content>
-  </md-card>
-
-  <md-card class="insideCabins">
-    <img md-card-image src="images/winter/winter11.jpg" alt="Fugler">
-    <md-card-content>
-      <p>Fugler</p>
-    </md-card-content>
-  </md-card>
+<md-card class="carouselCard">
+  <md-card-content>
+    <carousel [interval]="0" class="carousel">
+      <slide>
+        <img md-card-image src="images/winter/winter1.jpg" alt="Fine høstfarger">
+        <div class="carousel-caption">
+          <h3>Fine høstfarger</h3>
+        </div>
+      </slide>
+      <slide>
+        <img md-card-image src="images/winter/winter2.jpg" alt="Hytter">
+        <div class="carousel-caption">
+          <h3>Hytter</h3>
+        </div>
+      </slide>
+      <slide>
+        <img md-card-image src="images/winter/winter3.jpg" alt="Solnedgangen ved elven">
+        <div class="carousel-caption">
+          <h3>Solnedgang ved elven</h3>
+        </div>
+      </slide>
+      <slide>
+        <img md-card-image src="images/winter/winter4.jpg" alt="Nydelig Solnedgang">
+        <div class="carousel-caption">
+          <h3>Nydelig solnedgang</h3>
+        </div>
+      </slide>
+      <slide>
+        <img md-card-image src="images/winter/winter5.jpg" alt="Flott solnedgang">
+        <div class="carousel-caption">
+          <h3>Flott solnedgang</h3>
+        </div>
+      </slide>
+      <slide>
+        <img md-card-image src="images/winter/winter6.jpg" alt="Fin fangst">
+        <div class="carousel-caption">
+          <h3>Fin fangst</h3>
+        </div>
+      </slide>
+      <slide>
+        <img md-card-image src="images/winter/winter7.jpg" alt="Fangst">
+        <div class="carousel-caption">
+          <h3>Fangst</h3>
+        </div>
+      </slide>
+      <slide>
+        <img md-card-image src="images/winter/winter8.jpg" alt="Stor fisk">
+        <div class="carousel-caption">
+          <h3>Stor fisk</h3>
+        </div>
+      </slide>
+      <slide>
+        <img md-card-image src="images/winter/winter9.jpg" alt="Fisk & utstyr">
+        <div class="carousel-caption">
+          <h3>Fisk & utstyr</h3>
+        </div>
+      </slide>
+      <slide>
+        <img md-card-image src="images/winter/winter10.jpg" alt="Flotte ryper">
+        <div class="carousel-caption">
+          <h3>Flotte ryper</h3>
+        </div>
+      </slide>
+      <slide>
+        <img md-card-image src="images/winter/winter11.jpg" alt="Fugler i snøen">
+        <div class="carousel-caption">
+          <h3>Fugler i snøen</h3>
+        </div>
+      </slide>
+    </carousel>
+  </md-card-content>
+</md-card>
 
   <md-card class="cabinPrice">
     <md-card-content>
@@ -91,21 +82,23 @@
       <p>Gode jaktmuligheter på rype og hare. Vi har jaktkort for Jølster Kommune.</p>
     </md-card-content>
   </md-card>
-</div>
 
-
-<div class="imageCards">
-  <md-card class="insideCabins">
-    <img md-card-image src="images/winter/winter12.jpg" alt="Kantareller">
+  <md-card class="carouselCard">
     <md-card-content>
-      <p>Kantareller</p>
-    </md-card-content>
-  </md-card>
-
-  <md-card class="insideCabins">
-    <img md-card-image src="images/winter/winter13.jpg" alt="Sopplukking">
-    <md-card-content>
-      <p>Sopplukking</p>
+      <carousel [interval]="0" class="carousel">
+        <slide>
+          <img md-card-image src="images/winter/winter12.jpg" alt="Kantareller">
+          <div class="carousel-caption">
+            <h3>Kantareller</h3>
+          </div>
+        </slide>
+        <slide>
+          <img md-card-image src="images/winter/winter13.jpg" alt="Sopplukking">
+          <div class="carousel-caption">
+            <h3>Sopplukking</h3>
+          </div>
+        </slide>
+      </carousel>
     </md-card-content>
   </md-card>
 
@@ -118,48 +111,48 @@
     </md-card-content>
   </md-card>
 
-  <div class="imageCards">
-    <md-card class="vandring">
-      <img md-card-image src="images/winter/winter14.jpg" alt="Nydelig utsikt">
-      <md-card-content>
-        <p>Nydelig Utsikt</p>
-      </md-card-content>
-    </md-card>
-
-    <md-card class="vandring">
-      <img md-card-image src="images/winter/winter15.jpg" alt="Fine turområder">
-      <md-card-content>
-        <p>Fine turområder</p>
-      </md-card-content>
-    </md-card>
-
-    <md-card class="insideCabins">
-      <img md-card-image src="images/winter/winter16.jpg" alt="Tur i fjellet">
-      <md-card-content>
-        <p>Tur i fjellet</p>
-      </md-card-content>
-    </md-card>
-
-    <md-card class="insideCabins">
-      <img md-card-image src="images/winter/winter17.jpg" alt="Tursti i fjellet">
-      <md-card-content>
-        <p>Tursti i fjellet</p>
-      </md-card-content>
-    </md-card>
-
-    <md-card class="insideCabins">
-      <img md-card-image src="images/winter/winter18.jpg" alt="fint område ved elven">
-      <md-card-content>
-        <p>Fint område ved elven</p>
-      </md-card-content>
-    </md-card>
-
-    <md-card class="insideCabins">
-      <img md-card-image src="images/winter/winter19.jpg" alt="Store uteområder">
-      <md-card-content>
-        <p>Store uteområder</p>
-      </md-card-content>
-    </md-card>
+  <md-card class="carouselCard2">
+    <md-card-content>
+      <carousel [interval]="0" class="carousel">
+        <slide>
+          <img md-card-image src="images/winter/winter14.jpg" alt="Nydelig utsikt">
+          <div class="carousel-caption">
+            <h3>Nydelig utsikt</h3>
+          </div>
+        </slide>
+        <slide>
+          <img md-card-image src="images/winter/winter15.jpg" alt="Fine turomgivelser">
+          <div class="carousel-caption">
+            <h3>Fine turomgivelser</h3>
+          </div>
+        </slide>
+        <slide>
+          <img md-card-image src="images/winter/winter16.jpg" alt="Tur i fjellet">
+          <div class="carousel-caption">
+            <h3>Tur i fjellet</h3>
+          </div>
+        </slide>
+        <slide>
+          <img md-card-image src="images/winter/winter17.jpg" alt="Tur i fjellet">
+          <div class="carousel-caption">
+            <h3>Tur i fjellet</h3>
+          </div>
+        </slide>
+        <slide>
+          <img md-card-image src="images/winter/winter18.jpg" alt="Fint område ved eleven">
+          <div class="carousel-caption">
+            <h3>Fint område ved eleven</h3>
+          </div>
+        </slide>
+        <slide>
+          <img md-card-image src="images/winter/winter19.jpg" alt="Store områder">
+          <div class="carousel-caption">
+            <h3>Store områder</h3>
+          </div>
+        </slide>
+      </carousel>
+    </md-card-content>
+  </md-card>
 
     <md-card class="cabinPrice">
       <md-card-content>
@@ -172,94 +165,84 @@
 
     <h1 class="cabinHeader">Vinter</h1>
 
-    <div class="imageCards">
-      <md-card class="cabinPrice">
-        <img md-card-image src="images/winter/winter20.jpg" alt="Campingen om vinteren">
-        <md-card-content>
-          <p>Campingen om vinteren</p>
-        </md-card-content>
-      </md-card>
-
-      <md-card class="insideCabins">
-        <img md-card-image src="images/winter/winter21.jpg" alt="hyttene om vinteren">
-        <md-card-content>
-          <p>Hyttene om vinteren</p>
-        </md-card-content>
-      </md-card>
-
-
-      <md-card class="insideCabins">
-        <img md-card-image src="images/winter/winter22.jpg" alt="hyttene om vinteren">
-        <md-card-content>
-          <p>Hyttene om vinteren</p>
-        </md-card-content>
-      </md-card>
-
-      <md-card class="insideCabins">
-        <img md-card-image src="images/winter/winter23.jpg" alt="Snømåking">
-        <md-card-content>
-          <p>Snømåking</p>
-        </md-card-content>
-      </md-card>
-
-      <md-card class="insideCabins">
-        <img md-card-image src="images/winter/winter24.jpg" alt="Snøfreser">
-        <md-card-content>
-          <p>Snøfreser</p>
-        </md-card-content>
-      </md-card>
-
-      <md-card class="insideCabins">
-        <img md-card-image src="images/winter/winter25.jpg" alt="Idyllisk vinter">
-        <md-card-content>
-          <p>Idyllisk vinter</p>
-        </md-card-content>
-      </md-card>
-
-
-      <md-card class="insideCabins">
-        <img md-card-image src="images/winter/winter26.jpg" alt="Holsbua om vinteren">
-        <md-card-content>
-          <p>Holsbua om vinteren</p>
-        </md-card-content>
-      </md-card>
-    </div>
-
-    <div class="imageCards">
-      <md-card class="cabinPrice">
-        <img md-card-image src="images/winter/winter27.jpg" alt="Turløyper">
-        <md-card-content>
-          <p>Turløyper</p>
-        </md-card-content>
-      </md-card>
-
-      <md-card class="insideCabins">
-        <img md-card-image src="images/winter/winter28.jpg" alt="Skiløype">
-        <md-card-content>
-          <p>Skiløype</p>
-        </md-card-content>
-      </md-card>
-
-      <md-card class="insideCabins">
-        <img md-card-image src="images/winter/winter29.jpg" alt="Tur kos">
-        <md-card-content>
-          <p>Tur kos</p>
-        </md-card-content>
-      </md-card>
-
-      <md-card class="insideCabins">
-        <img md-card-image src="images/winter/winter30.jpg" alt="Turløype">
-        <md-card-content>
-          <p>Turløype</p>
-        </md-card-content>
-      </md-card>
-
-      <md-card class="insideCabins">
-        <img md-card-image src="images/winter/winter31.jpg" alt="Snø på fjellet">
-        <md-card-content>
-          <p>Snø på fjellet</p>
-        </md-card-content>
-      </md-card>
+    <md-card class="carouselCard">
+      <md-card-content>
+        <carousel [interval]="0" class="carousel">
+          <slide>
+            <img md-card-image src="images/winter/winter20.jpg" alt="Campingen om vinteren">
+            <div class="carousel-caption">
+              <h3>Campingen om vinteren</h3>
+            </div>
+          </slide>
+          <slide>
+            <img md-card-image src="images/winter/winter21.jpg" alt="Hyttene om vinteren">
+            <div class="carousel-caption">
+              <h3>Hyttene om vinteren</h3>
+            </div>
+          </slide>
+          <slide>
+            <img md-card-image src="images/winter/winter22.jpg" alt="Hyttene om vinteren">
+            <div class="carousel-caption">
+              <h3>Hyttene om vinteren</h3>
+            </div>
+          </slide>
+          <slide>
+            <img md-card-image src="images/winter/winter23.jpg" alt="Snømåking">
+            <div class="carousel-caption">
+              <h3>Snømåking</h3>
+            </div>
+          </slide>
+          <slide>
+            <img md-card-image src="images/winter/winter24.jpg" alt="Snøfreser">
+            <div class="carousel-caption">
+              <h3>Snøfreser</h3>
+            </div>
+          </slide>
+          <slide>
+            <img md-card-image src="images/winter/winter25.jpg" alt="Idyllisk vinter">
+            <div class="carousel-caption">
+              <h3>Idyllisk vinter</h3>
+            </div>
+          </slide>
+          <slide>
+            <img md-card-image src="images/winter/winter26.jpg" alt="Holsbua om vinteren">
+            <div class="carousel-caption">
+              <h3>Holsbua om vinteren</h3>
+            </div>
+          </slide>
+          <slide>
+            <img md-card-image src="images/winter/winter27.jpg" alt="Turløyper">
+            <div class="carousel-caption">
+              <h3>Turløyper</h3>
+            </div>
+          </slide>
+          <slide>
+            <img md-card-image src="images/winter/winter28.jpg" alt="Skiløype">
+            <div class="carousel-caption">
+              <h3>Skiløype</h3>
+            </div>
+          </slide>
+          <slide>
+            <img md-card-image src="images/winter/winter29.jpg" alt="Tur kos">
+            <div class="carousel-caption">
+              <h3>Tur kos</h3>
+            </div>
+          </slide>
+          <slide>
+            <img md-card-image src="images/winter/winter30.jpg" alt="Fine turløyper">
+            <div class="carousel-caption">
+              <h3>Fine turløyper</h3>
+            </div>
+          </slide>
+          <slide>
+            <img md-card-image src="images/winter/winter31.jpg" alt="Snø på fjellet">
+            <div class="carousel-caption">
+              <h3>Snø på fjellet</h3>
+            </div>
+          </slide>
+        </carousel>
+      </md-card-content>
+    </md-card>
 
       <md-card class="cabinPrice">
         <md-card-content>
@@ -269,48 +252,47 @@
           </p>
         </md-card-content>
       </md-card>
-    </div>
 
-    <div class="imageCards">
-      <md-card class="insideCabins">
-        <img md-card-image src="images/winter/winter32.jpg" alt="Løype prep">
+      <md-card class="carouselCard">
         <md-card-content>
-          <p>Løype prep</p>
-        </md-card-content>
-      </md-card>
-
-      <md-card class="insideCabins">
-        <img md-card-image src="images/winter/winter33.jpg" alt="Fine løyper">
-        <md-card-content>
-          <p>Fine alpin-løyper</p>
-        </md-card-content>
-      </md-card>
-
-      <md-card class="insideCabins">
-        <img md-card-image src="images/winter/winter34.jpg" alt="Fint fjell">
-        <md-card-content>
-          <p>Fint fjell</p>
-        </md-card-content>
-      </md-card>
-
-      <md-card class="insideCabins">
-        <img md-card-image src="images/winter/winter35.jpg" alt="Fine løyper">
-        <md-card-content>
-          <p>Fine løyper</p>
-        </md-card-content>
-      </md-card>
-
-      <md-card class="insideCabins">
-        <img md-card-image src="images/winter/winter36.jpg" alt="Fine løyper">
-        <md-card-content>
-          <p>Fine løyper</p>
-        </md-card-content>
-      </md-card>
-
-      <md-card class="insideCabins">
-        <img md-card-image src="images/winter/winter37.jpg" alt="Fine løyper">
-        <md-card-content>
-          <p>Fine løyper</p>
+          <carousel [interval]="0" class="carousel">
+            <slide>
+              <img md-card-image src="images/winter/winter32.jpg" alt="Løype prep">
+              <div class="carousel-caption">
+                <h3>Løype prep</h3>
+              </div>
+            </slide>
+            <slide>
+              <img md-card-image src="images/winter/winter33.jpg" alt="Hyttene om vinteren">
+              <div class="carousel-caption">
+                <h3>Fine alpin-løyper</h3>
+              </div>
+            </slide>
+            <slide>
+              <img md-card-image src="images/winter/winter34.jpg" alt="Løypen">
+              <div class="carousel-caption">
+                <h3>Løypen</h3>
+              </div>
+            </slide>
+            <slide>
+              <img md-card-image src="images/winter/winter35.jpg" alt="Fint prepparert">
+              <div class="carousel-caption">
+                <h3>Fint prepparert</h3>
+              </div>
+            </slide>
+            <slide>
+              <img md-card-image src="images/winter/winter36.jpg" alt="Fine løyper">
+              <div class="carousel-caption">
+                <h3>Fine løyper</h3>
+              </div>
+            </slide>
+            <slide>
+              <img md-card-image src="images/winter/winter37.jpg" alt="Fine løyper">
+              <div class="carousel-caption">
+                <h3>Fine løyper</h3>
+              </div>
+            </slide>
+          </carousel>
         </md-card-content>
       </md-card>
 
@@ -324,4 +306,3 @@
           <p>Meir informasjon sjå deira eiga heimeside: <a href="http://www.jolsterskisenter.no/" target="_blank">Jølster Skisenter</a></p>
         </md-card-content>
       </md-card>
-    </div>

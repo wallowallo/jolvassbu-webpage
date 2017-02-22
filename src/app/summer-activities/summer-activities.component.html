@@ -1,59 +1,53 @@
 <h1 class="cabinHeader">VÅR & SOMMER PÅ JØLSTER</h1>
 
-<div class="cabins">
-    <md-card class="cabin">
-      <img md-card-image src="images/spring/spring1.jpg" alt="Elven" height="170">
-      <md-card-content>
-        <p>Elven</p>
-      </md-card-content>
-    </md-card>
-
-    <md-card class="cabin">
-      <img md-card-image src="images/spring/spring2.jpg" alt="Fiske ved elven" height="170">
-      <md-card-content>
-        <p>Fiske ved elven</p>
-      </md-card-content>
-    </md-card>
-
-    <md-card class="cabin">
-      <img md-card-image src="images/spring/spring3.jpg" alt="Båttur" height="170">
-      <md-card-content>
-        <p>Båttur</p>
-      </md-card-content>
-    </md-card>
-</div>
-
-<div class="fisher">
-  <md-card class="fishing">
-    <img md-card-image src="images/spring/spring5.jpg" alt="God fangst" height="320" width="200">
-    <md-card-content>
-      <p>God fangst</p>
-    </md-card-content>
-  </md-card>
-
-
-  <md-card class="fishing">
-    <img md-card-image src="images/spring/spring6.jpg" alt="3 fisker" height="320" width="200">
-    <md-card-content>
-      <p>Fisker</p>
-    </md-card-content>
-  </md-card>
-</div>
-
-<div class="imageCards">
-  <md-card class="insideCabins">
-    <img md-card-image src="images/spring/spring4.jpg" alt="Fiske ved elven">
-    <md-card-content>
-      <p>Fiske ved elven</p>
-    </md-card-content>
-  </md-card>
-
-  <md-card class="insideCabins">
-    <img md-card-image src="images/spring/spring7.jpg" alt="Sløyd fisk">
-    <md-card-content>
-      <p>Sløyd fisk</p>
-    </md-card-content>
-  </md-card>
+<md-card class="carouselCard">
+  <md-card-content>
+    <carousel [interval]="0" class="carousel">
+      <slide>
+        <img md-card-image src="images/spring/spring1.jpg" alt="Elven">
+        <div class="carousel-caption">
+          <h3>Elven</h3>
+        </div>
+      </slide>
+      <slide>
+        <img md-card-image src="images/spring/spring2.jpg" alt="Fiske ved elven">
+        <div class="carousel-caption">
+          <h3>Fiske ved elven</h3>
+        </div>
+      </slide>
+      <slide>
+        <img md-card-image src="images/spring/spring3.jpg" alt="Båttur">
+        <div class="carousel-caption">
+          <h3>Båttur</h3>
+        </div>
+      </slide>
+      <slide>
+        <img md-card-image src="images/spring/spring4.jpg" alt="Fiske ved elven">
+        <div class="carousel-caption">
+          <h3>Fiske ved elven</h3>
+        </div>
+      </slide>
+      <slide>
+        <img md-card-image src="images/spring/spring5.jpg" alt="Fisker" height="370">
+        <div class="carousel-caption">
+          <h3>Fisker</h3>
+        </div>
+      </slide>
+      <slide>
+        <img md-card-image src="images/spring/spring6.jpg" alt="God fangst" height="370">
+        <div class="carousel-caption">
+          <h3>God fangst</h3>
+        </div>
+      </slide>
+      <slide>
+        <img md-card-image src="images/spring/spring7.jpg" alt="Sløyd fisk">
+        <div class="carousel-caption">
+          <h3>Sløyd fisk</h3>
+        </div>
+      </slide>
+    </carousel>
+  </md-card-content>
+</md-card>
 
   <md-card class="cabinPrice">
     <md-card-content>
@@ -64,29 +58,29 @@
         <p> Treng du litt opplæring i fiske, valg av rett fiskeutstyr eller valg av fiskeplass, vil vi sjølvsagt vise deg.</p>
     </md-card-content>
   </md-card>
-</div>
 
-
-<div class="imageCards">
-  <md-card class="cabinPrice">
-    <img md-card-image src="images/spring/spring8.jpg" alt="Lek ved elven">
+  <md-card class="carouselCard2">
     <md-card-content>
-      <p>Lek ved elven</p>
-    </md-card-content>
-  </md-card>
-
-  <md-card class="insideCabins">
-    <img md-card-image src="images/spring/spring9.jpg" alt="Vassing">
-    <md-card-content>
-      <p>Vassing</p>
-    </md-card-content>
-  </md-card>
-
-
-  <md-card class="insideCabins">
-    <img md-card-image src="images/spring/spring10.jpg" alt="Bading i elven">
-    <md-card-content>
-      <p>Bading i elven</p>
+      <carousel [interval]="0" class="carousel">
+        <slide>
+          <img md-card-image src="images/spring/spring8.jpg" alt="Lek ved elven">
+          <div class="carousel-caption">
+            <h3>Lek ved elven</h3>
+          </div>
+        </slide>
+        <slide>
+          <img md-card-image src="images/spring/spring9.jpg" alt="Vassing">
+          <div class="carousel-caption">
+            <h3>Vassing</h3>
+          </div>
+        </slide>
+        <slide>
+          <img md-card-image src="images/spring/spring10.jpg" alt="Bading i elven">
+          <div class="carousel-caption">
+            <h3>Bading i elven</h3>
+          </div>
+        </slide>
+      </carousel>
     </md-card-content>
   </md-card>
 
@@ -98,38 +92,35 @@
       </p>
     </md-card-content>
   </md-card>
-</div>
 
-
-<div class="holsbua">
-    <md-card class="cabin">
-      <img md-card-image src="images/spring/spring11.jpg" alt="Rafting" height="170">
-      <md-card-content>
-        <p>Rafting</p>
-      </md-card-content>
-    </md-card>
-
-    <md-card class="cabin">
-      <img md-card-image src="images/spring/spring12.jpg" alt="Rafting" height="170">
-      <md-card-content>
-        <p>Rafting</p>
-      </md-card-content>
-    </md-card>
-</div>
-
-
-<div class="imageCards">
-  <md-card class="insideCabins">
-    <img md-card-image src="images/spring/spring13.jpg" alt="Rafting">
+  <md-card class="carouselCard">
     <md-card-content>
-      <p>Rafting</p>
-    </md-card-content>
-  </md-card>
-
-  <md-card class="insideCabins">
-    <img md-card-image src="images/spring/spring14.jpg" alt="Rafting">
-    <md-card-content>
-      <p>Rafting</p>
+      <carousel [interval]="0" class="carousel">
+        <slide>
+          <img md-card-image src="images/spring/spring11.jpg" alt="Rafting">
+          <div class="carousel-caption">
+            <h3>Rafting</h3>
+          </div>
+        </slide>
+        <slide>
+          <img md-card-image src="images/spring/spring12.jpg" alt="Rafting">
+          <div class="carousel-caption">
+            <h3>Rafting</h3>
+          </div>
+        </slide>
+        <slide>
+          <img md-card-image src="images/spring/spring13.jpg" alt="Rafting">
+          <div class="carousel-caption">
+            <h3>Rafting</h3>
+          </div>
+        </slide>
+        <slide>
+          <img md-card-image src="images/spring/spring14.jpg" alt="Rafting">
+          <div class="carousel-caption">
+            <h3>Rafting</h3>
+          </div>
+        </slide>
+      </carousel>
     </md-card-content>
   </md-card>
 
@@ -142,19 +133,22 @@
     </md-card-content>
   </md-card>
 
-
-  <md-card class="insideCabins">
-    <img md-card-image src="images/spring/spring15.jpg" alt="Maraton">
+  <md-card class="carouselCard">
     <md-card-content>
-      <p>Maraton</p>
-    </md-card-content>
-  </md-card>
-
-
-  <md-card class="insideCabins">
-    <img md-card-image src="images/spring/spring16.jpg" alt="Maraton">
-    <md-card-content>
-      <p>Maraton</p>
+      <carousel [interval]="0" class="carousel">
+        <slide>
+          <img md-card-image src="images/spring/spring15.jpg" alt="Jølstermaraton">
+          <div class="carousel-caption">
+            <h3>Jølstermaraton</h3>
+          </div>
+        </slide>
+        <slide>
+          <img md-card-image src="images/spring/spring16.jpg" alt="Vassing">
+          <div class="carousel-caption">
+            <h3>Maraton</h3>
+          </div>
+        </slide>
+      </carousel>
     </md-card-content>
   </md-card>
 
@@ -167,18 +161,22 @@
     </md-card-content>
   </md-card>
 
-  <md-card class="insideCabins">
-    <img md-card-image src="images/spring/spring17.jpg" alt="Golf Klubbhuset">
+  <md-card class="carouselCard">
     <md-card-content>
-      <p>Klubbhuset</p>
-    </md-card-content>
-  </md-card>
-
-
-  <md-card class="insideCabins">
-    <img md-card-image src="images/spring/spring18.jpg" alt="Golf banen">
-    <md-card-content>
-      <p>Golf banen</p>
+      <carousel [interval]="0" class="carousel">
+        <slide>
+          <img md-card-image src="images/spring/spring17.jpg" alt="Klubbhuset">
+          <div class="carousel-caption">
+            <h3>Klubbhuset</h3>
+          </div>
+        </slide>
+        <slide>
+          <img md-card-image src="images/spring/spring18.jpg" alt="Golfbanen">
+          <div class="carousel-caption">
+            <h3>Golfbanen</h3>
+          </div>
+        </slide>
+      </carousel>
     </md-card-content>
   </md-card>
 
@@ -191,63 +189,58 @@
     </md-card-content>
   </md-card>
 
-  <md-card class="insideCabins">
-    <img md-card-image src="images/spring/spring19.jpg" alt="Fjellet">
+  <md-card class="carouselCard">
     <md-card-content>
-      <p>Fjellet</p>
-    </md-card-content>
-  </md-card>
-
-
-  <md-card class="insideCabins">
-    <img md-card-image src="images/spring/spring20.jpg" alt="Natursti">
-    <md-card-content>
-      <p>Natursti</p>
-    </md-card-content>
-  </md-card>
-
-  <md-card class="insideCabins">
-    <img md-card-image src="images/spring/spring21.jpg" alt="Toppen av fjellet">
-    <md-card-content>
-      <p>Toppen av fjellet</p>
-    </md-card-content>
-  </md-card>
-
-
-  <md-card class="insideCabins">
-    <img md-card-image src="images/spring/spring22.jpg" alt="Toppen ved innsjøen">
-    <md-card-content>
-      <p>Toppen ved innsjøen</p>
-    </md-card-content>
-  </md-card>
-
-  <md-card class="insideCabins">
-    <img md-card-image src="images/spring/spring23.jpg" alt="Jogge muligheter">
-    <md-card-content>
-      <p>Jogging i naturen</p>
-    </md-card-content>
-  </md-card>
-
-
-  <md-card class="insideCabins">
-    <img md-card-image src="images/spring/spring24.jpg" alt="Natur">
-    <md-card-content>
-      <p>Natur</p>
-    </md-card-content>
-  </md-card>
-
-  <md-card class="insideCabins">
-    <img md-card-image src="images/spring/spring25.jpg" alt="Ville utsikter">
-    <md-card-content>
-      <p>Ville utsikter</p>
-    </md-card-content>
-  </md-card>
-
-
-  <md-card class="insideCabins">
-    <img md-card-image src="images/spring/spring26.jpg" alt="Fine krabater">
-    <md-card-content>
-      <p>Fine krabater</p>
+      <carousel [interval]="0" class="carousel">
+        <slide>
+          <img md-card-image src="images/spring/spring19.jpg" alt="Fjellet">
+          <div class="carousel-caption">
+            <h3>Fjellet</h3>
+          </div>
+        </slide>
+        <slide>
+          <img md-card-image src="images/spring/spring20.jpg" alt="Natursti">
+          <div class="carousel-caption">
+            <h3>Natursti</h3>
+          </div>
+        </slide>
+        <slide>
+          <img md-card-image src="images/spring/spring21.jpg" alt="Toppen av fjellet">
+          <div class="carousel-caption">
+            <h3>Toppen av fjeller</h3>
+          </div>
+        </slide>
+        <slide>
+          <img md-card-image src="images/spring/spring22.jpg" alt="Toppen">
+          <div class="carousel-caption">
+            <h3>Toppen</h3>
+          </div>
+        </slide>
+        <slide>
+          <img md-card-image src="images/spring/spring23.jpg" alt="Jogging i naturen">
+          <div class="carousel-caption">
+            <h3>Jogging i naturen</h3>
+          </div>
+        </slide>
+        <slide>
+          <img md-card-image src="images/spring/spring24.jpg" alt="Natur">
+          <div class="carousel-caption">
+            <h3>Natur</h3>
+          </div>
+        </slide>
+        <slide>
+          <img md-card-image src="images/spring/spring25.jpg" alt="Ville utsikter">
+          <div class="carousel-caption">
+            <h3>Ville utsikter</h3>
+          </div>
+        </slide>
+        <slide>
+          <img md-card-image src="images/spring/spring26.jpg" alt="Fine krabater">
+          <div class="carousel-caption">
+            <h3>Fine krabater</h3>
+          </div>
+        </slide>
+      </carousel>
     </md-card-content>
   </md-card>
 
@@ -260,24 +253,28 @@
     </md-card-content>
   </md-card>
 
-  <md-card class="insideCabins">
-    <img md-card-image src="images/spring/spring27.jpg" alt="Fjellsiden">
+  <md-card class="carouselCard2">
     <md-card-content>
-      <p>Sykling ved fjellsiden</p>
-    </md-card-content>
-  </md-card>
-
-  <md-card class="insideCabins">
-    <img md-card-image src="images/spring/spring29.jpg" alt="Sykkling langs elven">
-    <md-card-content>
-      <p>Sykling langs elven</p>
-    </md-card-content>
-  </md-card>
-
-  <md-card class="cabinPrice">
-    <img md-card-image src="images/spring/spring28.jpg" alt="Nydelige sykkestier">
-    <md-card-content>
-      <p>Nydelige sykkelstier</p>
+      <carousel [interval]="0" class="carousel">
+        <slide>
+          <img md-card-image src="images/spring/spring27.jpg" alt="Sykling ved fjellsiden">
+          <div class="carousel-caption">
+            <h3>Sykling ved fjellsiden</h3>
+          </div>
+        </slide>
+        <slide>
+          <img md-card-image src="images/spring/spring28.jpg" alt="Nydelige sykkelstier">
+          <div class="carousel-caption">
+            <h3>Nydelige sykkelstier</h3>
+          </div>
+        </slide>
+        <slide>
+          <img md-card-image src="images/spring/spring29.jpg" alt="sykling ved elven">
+          <div class="carousel-caption">
+            <h3>Sykling ved elven</h3>
+          </div>
+        </slide>
+      </carousel>
     </md-card-content>
   </md-card>
 
@@ -291,4 +288,3 @@
 </p>
     </md-card-content>
   </md-card>
-</div>

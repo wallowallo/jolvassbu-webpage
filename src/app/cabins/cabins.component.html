@@ -1,59 +1,53 @@
 <h1 class="cabinHeader">HYTTER</h1>
 
-<div class="cabins">
-    <md-card class="cabin">
-      <img md-card-image src="images/cabins/hytte1.jpg" alt="Jøla" height="170">
-      <md-card-content>
-        <p>Jøla</p>
-      </md-card-content>
-    </md-card>
-
-    <md-card class="cabin">
-      <img md-card-image src="images/cabins/hytte2.jpg" alt="Persbua" height="170">
-      <md-card-content>
-        <p>Persbua</p>
-      </md-card-content>
-    </md-card>
-
-    <md-card class="cabin">
-      <img md-card-image src="images/cabins/hytte3.jpg" alt="Elvestova" height="170">
-      <md-card-content>
-        <p>Elvestova</p>
-      </md-card-content>
-    </md-card>
-</div>
-
-
-<div class="imageCards">
-  <md-card class="insideCabins">
-    <img md-card-image src="images/cabins/hytte4.jpg" alt="Living Room">
-    <md-card-content>
-      <p>Stue</p>
-    </md-card-content>
-  </md-card>
-
-  <md-card class="insideCabins">
-    <img md-card-image src="images/cabins/hytte5.jpg" alt="Dining Table">
-    <md-card-content>
-      <p>Spisebord</p>
-    </md-card-content>
-  </md-card>
-
-
-  <md-card class="insideCabins">
-    <img md-card-image src="images/cabins/hytte6.jpg" alt="Kitchen">
-    <md-card-content>
-      <p>Kjøkken</p>
-    </md-card-content>
-  </md-card>
-
-
-  <md-card class="insideCabins">
-    <img md-card-image src="images/cabins/hytte7.jpg" alt="Tv and bedroom">
-    <md-card-content>
-      <p>TV og soverom</p>
-    </md-card-content>
-  </md-card>
+<md-card class="carouselCard">
+  <md-card-content>
+    <carousel [interval]="0" class="carousel">
+      <slide>
+        <img md-card-image src="images/cabins/hytte1.jpg" alt="Jøla">
+        <div class="carousel-caption">
+          <h3>Jøla</h3>
+        </div>
+      </slide>
+      <slide>
+        <img md-card-image src="images/cabins/hytte2.jpg" alt="Persbua">
+        <div class="carousel-caption">
+          <h3>Persbua</h3>
+        </div>
+      </slide>
+      <slide>
+        <img md-card-image src="images/cabins/hytte3.jpg" alt="Elvestova">
+        <div class="carousel-caption">
+          <h3>Elvestova</h3>
+        </div>
+      </slide>
+      <slide>
+        <img md-card-image src="images/cabins/hytte4.jpg" alt="Stue">
+        <div class="carousel-caption">
+          <h3>Stue</h3>
+        </div>
+      </slide>
+      <slide>
+        <img md-card-image src="images/cabins/hytte5.jpg" alt="Stue">
+        <div class="carousel-caption">
+          <h3>Stue</h3>
+        </div>
+      </slide>
+      <slide>
+        <img md-card-image src="images/cabins/hytte6.jpg" alt="Kjøkken">
+        <div class="carousel-caption">
+          <h3>Kjøkken</h3>
+        </div>
+      </slide>
+      <slide>
+        <img md-card-image src="images/cabins/hytte7.jpg" alt="Stue/soverom">
+        <div class="carousel-caption">
+          <h3>Stue/Soverom</h3>
+        </div>
+      </slide>
+    </carousel>
+  </md-card-content>
+</md-card>
 
   <md-card class="cabinPrice">
     <md-card-content>
@@ -67,31 +61,30 @@
         <p> Pris pr døgn: Kr.650,-</p>
     </md-card-content>
   </md-card>
-</div>
-
-<div class="selet">
-    <md-card class="cabin">
-      <img md-card-image src="images/cabins/hytte8.jpg" alt="Selet" height="170">
-      <md-card-content>
-        <p>Selet</p>
-      </md-card-content>
-    </md-card>
-</div>
 
 
-<div class="imageCards">
-  <md-card class="insideCabins">
-    <img md-card-image src="images/cabins/hytte9.jpg" alt="Kitchen">
+  <md-card class="carouselCard">
     <md-card-content>
-      <p>Stue</p>
-    </md-card-content>
-  </md-card>
-
-
-  <md-card class="insideCabins">
-    <img md-card-image src="images/cabins/hytte10.jpg" alt="Tv and bedroom">
-    <md-card-content>
-      <p>Stue/soverom</p>
+      <carousel [interval]="0" class="carousel">
+        <slide>
+          <img md-card-image src="images/cabins/hytte8.jpg" alt="Selet">
+          <div class="carousel-caption">
+            <h3>Selet</h3>
+          </div>
+        </slide>
+        <slide>
+          <img md-card-image src="images/cabins/hytte9.jpg" alt="Stue">
+          <div class="carousel-caption">
+            <h3>Stue</h3>
+          </div>
+        </slide>
+        <slide>
+          <img md-card-image src="images/cabins/hytte10.jpg" alt="Stue/soverom">
+          <div class="carousel-caption">
+            <h3>Stue/soverom</h3>
+          </div>
+        </slide>
+      </carousel>
     </md-card-content>
   </md-card>
 
@@ -107,54 +100,47 @@
         <p> Pris pr døgn: Kr.520,-</p>
     </md-card-content>
   </md-card>
-</div>
 
-
-<div class="holsbua">
-    <md-card class="cabin">
-      <img md-card-image src="images/cabins/hytte11.jpg" alt="Holsbua" height="170">
-      <md-card-content>
-        <p>Holsbua</p>
-      </md-card-content>
-    </md-card>
-
-    <md-card class="cabin">
-      <img md-card-image src="images/cabins/hytte12.jpg" alt="Holsbua" height="170">
-      <md-card-content>
-        <p>Holsbua fra siden</p>
-      </md-card-content>
-    </md-card>
-</div>
-
-
-<div class="imageCards">
-  <md-card class="insideCabins">
-    <img md-card-image src="images/cabins/hytte13.jpg" alt="Stue">
+  <md-card class="carouselCard2">
     <md-card-content>
-      <p>Stue</p>
-    </md-card-content>
-  </md-card>
-
-  <md-card class="insideCabins">
-    <img md-card-image src="images/cabins/hytte14.jpg" alt="Stue og TV">
-    <md-card-content>
-      <p>TV og Stue</p>
-    </md-card-content>
-  </md-card>
-
-
-  <md-card class="insideCabins">
-    <img md-card-image src="images/cabins/hytte15.jpg" alt="Soverom">
-    <md-card-content>
-      <p>Soverom</p>
-    </md-card-content>
-  </md-card>
-
-
-  <md-card class="insideCabins">
-    <img md-card-image src="images/cabins/hytte16.jpg" alt="Soverom 2">
-    <md-card-content>
-      <p>Soverom 2</p>
+      <carousel [interval]="0" class="carousel">
+        <slide>
+          <img md-card-image src="images/cabins/hytte11.jpg" alt="Holsbua">
+          <div class="carousel-caption">
+            <h3>Holsbua</h3>
+          </div>
+        </slide>
+        <slide>
+          <img md-card-image src="images/cabins/hytte12.jpg" alt="Holsbua fra siden">
+          <div class="carousel-caption">
+            <h3>Holsbua fra siden</h3>
+          </div>
+        </slide>
+        <slide>
+          <img md-card-image src="images/cabins/hytte13.jpg" alt="Stue">
+          <div class="carousel-caption">
+            <h3>Stue</h3>
+          </div>
+        </slide>
+        <slide>
+          <img md-card-image src="images/cabins/hytte14.jpg" alt="Third slide">
+          <div class="carousel-caption">
+            <h3>Stue</h3>
+          </div>
+        </slide>
+        <slide>
+          <img md-card-image src="images/cabins/hytte15.jpg" alt="Soverom">
+          <div class="carousel-caption">
+            <h3>Soverom</h3>
+          </div>
+        </slide>
+        <slide>
+          <img md-card-image src="images/cabins/hytte16.jpg" alt="Soverom 2">
+          <div class="carousel-caption">
+            <h3>Soverom 2</h3>
+          </div>
+        </slide>
+      </carousel>
     </md-card-content>
   </md-card>
 
@@ -175,4 +161,3 @@
           (2 - 4 sengeplasser)</p>
     </md-card-content>
   </md-card>
-</div>

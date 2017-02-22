@@ -1,65 +1,59 @@
 <h1 class="caravanHeader">SERVICEBYGG</h1>
 
-  <div class="facilities">
-      <md-card class="facility">
-        <img md-card-image src="images/facilities/facilities1.jpg" alt="Hovedbygg" height="320">
-        <md-card-content>
-          <p>Hovedbygg</p>
-        </md-card-content>
-      </md-card>
-  </div>
-
-<div class="bench">
-  <md-card class="insideCabins">
-    <img md-card-image src="images/facilities/facilities2.jpg" alt="Fint uteområde">
-    <md-card-content>
-      <p>Fint uteområde</p>
-    </md-card-content>
-  </md-card>
-</div>
-
-  <div class="imageCards">
-    <md-card class="insideCabins">
-      <img md-card-image src="images/facilities/facilities3.jpg" alt="Fiskestenger">
-      <md-card-content>
-        <p>Fiskestenger</p>
-      </md-card-content>
-    </md-card>
-
-    <md-card class="insideCabins">
-      <img md-card-image src="images/facilities/facilities4.jpg" alt="Båter">
-      <md-card-content>
-        <p>Båter</p>
-      </md-card-content>
-    </md-card>
-
-    <md-card class="insideCabins">
-      <img md-card-image src="images/facilities/facilities5.jpg" alt="Kjøkken">
-      <md-card-content>
-        <p>Kjøkken</p>
-      </md-card-content>
-    </md-card>
-
-    <md-card class="insideCabins">
-      <img md-card-image src="images/facilities/facilities6.jpg" alt="Koselig sittekrok">
-      <md-card-content>
-        <p>Koselig sittekrok</p>
-      </md-card-content>
-    </md-card>
-
-    <md-card class="insideCabins">
-      <img md-card-image src="images/facilities/facilities7.jpg" alt="Bad">
-      <md-card-content>
-        <p>Bad</p>
-      </md-card-content>
-    </md-card>
-
-    <md-card class="insideCabins">
-      <img md-card-image src="images/facilities/facilities8.jpg" alt="Dusj og Toalett">
-      <md-card-content>
-        <p>Dusj og Toalett</p>
-      </md-card-content>
-    </md-card>
+<md-card class="carouselCard">
+  <md-card-content>
+    <carousel [interval]="0" class="carousel">
+      <slide>
+        <img md-card-image src="images/facilities/facilities1.jpg" alt="Hovedbygg">
+        <div class="carousel-caption">
+          <h3>Hovedbygg</h3>
+        </div>
+      </slide>
+      <slide>
+        <img md-card-image src="images/facilities/facilities2.jpg" alt="fin sitteplass">
+        <div class="carousel-caption">
+          <h3>Fin sitteplass</h3>
+        </div>
+      </slide>
+      <slide>
+        <img md-card-image src="images/facilities/facilities3.jpg" alt="Fiskestenger til leie">
+        <div class="carousel-caption">
+          <h3>Fiskestenger til leie</h3>
+        </div>
+      </slide>
+      <slide>
+        <img md-card-image src="images/facilities/facilities4.jpg" alt="Båter til leie" height="370">
+        <div class="carousel-caption">
+          <h3>Båter til leie</h3>
+        </div>
+      </slide>
+      <slide>
+        <img md-card-image src="images/facilities/facilities5.jpg" alt="Kjøkken">
+        <div class="carousel-caption">
+          <h3>Kjøkken</h3>
+        </div>
+      </slide>
+      <slide>
+        <img md-card-image src="images/facilities/facilities6.jpg" alt="Koselig sittekrok">
+        <div class="carousel-caption">
+          <h3>Koselig sittekrok</h3>
+        </div>
+      </slide>
+      <slide>
+        <img md-card-image src="images/facilities/facilities7.jpg" alt="Bad">
+        <div class="carousel-caption">
+          <h3>Bad</h3>
+        </div>
+      </slide>
+      <slide>
+        <img md-card-image src="images/facilities/facilities8.jpg" alt="Dusj & toalett">
+        <div class="carousel-caption">
+          <h3>Dusj & toalett</h3>
+        </div>
+      </slide>
+    </carousel>
+  </md-card-content>
+</md-card>
 
     <md-card class="cabinPrice">
       <md-card-content>
@@ -90,4 +84,3 @@
              Det er også mulig å leige eige bad m/toalett og dusj Nkr.150,-. pr.døgn.</p>
       </md-card-content>
     </md-card>
-  </div>

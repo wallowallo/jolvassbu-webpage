@@ -2,8 +2,9 @@ import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 import { FormsModule } from '@angular/forms';
 import { HttpModule } from '@angular/http';
-import { MaterialModule } from '@angular/material'
-import 'hammerjs'
+import { MaterialModule } from '@angular/material';
+import { CarouselModule } from 'ng2-bootstrap/carousel';
+import 'hammerjs';
 
 import { AppComponent } from './app.component';
 import { HomeComponent } from './home/home.component';
@@ -32,7 +33,8 @@ import { routing } from './routes/routing';
     FormsModule,
     HttpModule,
     routing,
-    MaterialModule.forRoot()
+    MaterialModule.forRoot(),
+    CarouselModule.forRoot()
   ],
   providers: [],
   bootstrap: [AppComponent]
