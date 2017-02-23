@@ -16,6 +16,8 @@ import { SummerActivitiesComponent } from './summer-activities/summer-activities
 import { WinterActivitiesComponent } from './winter-activities/winter-activities.component';
 
 import { routing } from './routes/routing';
+import { MapComponent } from './map/map.component';
+import { JolsterComponent } from './jolster/jolster.component';
 
 @NgModule({
   declarations: [
@@ -26,7 +28,9 @@ import { routing } from './routes/routing';
     CaravanCampingComponent,
     FacilitiesComponent,
     SummerActivitiesComponent,
-    WinterActivitiesComponent
+    WinterActivitiesComponent,
+    MapComponent,
+    JolsterComponent
   ],
   imports: [
     BrowserModule,
