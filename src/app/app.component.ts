@@ -5,5 +5,4 @@ import { MdMenuTrigger } from '@angular/material/menu/menu-trigger';
   selector: 'app-root',
   templateUrl: './app.component.html'
 })
-export class AppComponent {
-}
+export class AppComponent {}
